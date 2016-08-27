@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE knjiznica SYSTEM "gramatika.dtd">
+
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl"?>
+
+<knjiznica>
+	<knjiga isbn="1234567890111" jezik="Hrvatski" izdanje="1" uvez="Meki" ocjena="2">
+	  <naslov>Teorija računarstva</naslov>
+	  <autor>
+	    <ime>Siniša</ime>
+	    <prezime>Srbljić</prezime>
+	  </autor>
+	  <broj_stranica>453</broj_stranica>
+	  <izdavac>
+        <naziv>Element</naziv>
+      </izdavac>
+      <datum_izdanja>10.10.2006.</datum_izdanja>
+      <način_distribucije>knjiga</način_distribucije>
+      <kategorija>Computer science</kategorija>
+	  <broj_poglavlja>7</broj_poglavlja>
+	  <cijena>159.99kn</cijena>
+	</knjiga>
+	
+	<knjiga isbn="1234567890222" jezik="Engleski" izdanje="3" uvez="Tvrdi" ocjena="4">
+	  <naslov>Thinking in Java</naslov>
+      <podnaslov>Learning Java programming language</podnaslov>
+      <autor>
+        <ime>Bruce</ime>
+        <prezime>Eckel</prezime>
+      </autor>
+	  <broj_stranica>1152</broj_stranica>
+	  <izdavac>
+        <naziv>Prentice-Hall</naziv>
+      </izdavac>
+      <datum_izdanja>12.12.2005.</datum_izdanja>
+      <način_distribucije>knjiga</način_distribucije>
+      <kategorija>Software development</kategorija>
+	  <broj_poglavlja>6</broj_poglavlja>
+	  <cijena>250kn</cijena>
+	</knjiga>
+	
+	<knjiga isbn="1234567890333" jezik="Hrvatski Engleski" izdanje="2" uvez="Tvrdi" ocjena="4">
+      <naslov>Harry Potter</naslov>
+      <podnaslov>Harry Potter and the sorcerer's stone</podnaslov>
+      <autor>
+        <ime>J.K.</ime>
+        <prezime>Rowling</prezime>
+      </autor>
+	  <broj_stranica>762</broj_stranica>
+	  <izdavac>
+        <naziv>Algoritam</naziv>
+      </izdavac>
+      <datum_izdanja>30.05.2002.</datum_izdanja>
+      <način_distribucije>knjiga</način_distribucije>
+      <kategorija>Znanstvena fantastika</kategorija>
+	  <broj_poglavlja>4</broj_poglavlja>
+	  <cijena>370kn</cijena>
+	</knjiga>
+	
+	<knjiga isbn="1234567890444" jezik="Hrvatski Engleski" izdanje="6" uvez="Meki" ocjena="4">
+	  <naslov>Gospodar prstenova</naslov>
+      <podnaslov>Dvije kule</podnaslov>
+      <autor>
+        <ime>J.R.R.</ime>
+        <prezime>Tolkien</prezime>
+      </autor>
+	  <broj_stranica>827</broj_stranica>
+	  <izdavac>
+        <naziv>Algoritam</naziv>
+      </izdavac>
+      <datum_izdanja>11.10.2006.</datum_izdanja>
+      <način_distribucije>Audio knjiga</način_distribucije>
+      <kategorija>Znanstvena fantastika</kategorija>
+	  <broj_poglavlja>4</broj_poglavlja>
+	  <cijena>420kn</cijena>
+	</knjiga>
+	
+	<knjiga  isbn="1234567890555" jezik="Slovenski" izdanje="5" uvez="Tvrdi" ocjena="3">
+	  <naslov>Poruke s druge strane</naslov>
+	  <autor>
+	    <ime>Jodi</ime>
+		<prezime>Livon</prezime>
+	  </autor>
+	  <broj_stranica>160</broj_stranica>
+	  <izdavac>
+        <naziv>Profil</naziv>
+      </izdavac>
+      <datum_izdanja>21.10.2007.</datum_izdanja>
+      <način_distribucije>Elektronička knjiga</način_distribucije>
+      <kategorija>Avanturistički roman</kategorija>
+	  <broj_poglavlja>1</broj_poglavlja>
+	  <cijena>80kn</cijena>	
+	</knjiga>
+</knjiznica>

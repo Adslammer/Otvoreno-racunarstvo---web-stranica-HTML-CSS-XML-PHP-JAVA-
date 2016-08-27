@@ -1,0 +1,22 @@
+<!ELEMENT knjiznica (knjiga*)>
+
+<!ELEMENT knjiga (naslov, podnaslov?, autor+, broj_stranica, izdavač+, datum_izdanja?, način_distribucije?, kategorija, broj_poglavlja, cijena)>
+<!ELEMENT naslov (CDATA)>
+<!ELEMENT podnaslov (CDATA)>
+<!ELEMENT autor (ime, prezime)>
+<!ELEMENT ime (CDATA)>
+<!ELEMENT prezime (CDATA)>
+<!ELEMENT broj_stranica (CDATA)>
+<!ELEMENT izdavač (naziv)>
+<!ELEMENT naziv (CDATA)>
+<!ELEMENT datum_izdanja (CDATA)>
+<!ELEMENT način_distribucije (CDATA)>
+<!ELEMENT kategorija (CDATA)>
+<!ELEMENT broj_poglavlja (CDATA)>
+<!ELEMENT cijena (CDATA)>
+
+<!ATTLIST knjiga isbn ID #REQUIRED>
+<!ATTLIST knjiga jezik (Hrvatski | Engleski | Njemački | Slovenski) #REQUIRED>
+<!ATTLIST knjiga izdanje (1|2|3|4|5|6|7|8|9|10) #REQUIRED>
+<!ATTLIST knjiga uvez (Tvrdi|Meki) #REQUIRED>
+<!ATTLIST knjiga ocjena (1|2|3|4|5) #REQUIRED>

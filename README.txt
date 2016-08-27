@@ -1,0 +1,1 @@
+Vježbe iz kolegija otvoreno racunarstvo. Izrada web stranice te korištenje HTML, CSS, XML, PHP i Java jezika.
